@@ -1,0 +1,41 @@
+{
+  "name": "Centro de Formação Web",
+  "short_name": "Centro Web",
+  "description": "Aprenda programação web e ganhe dinheiro online em Angola",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#0a0e27",
+  "background_color": "#0a0e27",
+  "categories": ["education", "technology"],
+  "lang": "pt-AO",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Inscrever-se",
+      "short_name": "Inscrição",
+      "description": "Garanta sua vaga no curso",
+      "url": "/#cta"
+    },
+    {
+      "name": "Contactar",
+      "short_name": "WhatsApp",
+      "description": "Fale conosco via WhatsApp",
+      "url": "https://wa.me/244954695732"
+    }
+  ]
+}

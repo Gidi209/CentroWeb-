@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-AO">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Centro de Formação Web - Aprenda programação e ganhe dinheiro online em Angola">
+    <meta name="theme-color" content="#0a0e27">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Centro Web">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="icon.png" type="image/png">
+    <link rel="apple-touch-icon" href="icon.png">
+    <title>Centro de Formação Web - Aprenda Programação em Angola</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="bg-stars"></div>
+    <div class="bg-glow"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">&lt;/&gt; Centro Web</div>
+            <div class="nav-links">
+                <button id="installBtn" class="btn-install" style="display:none">📱 Instalar App</button>
+                <a href="#cta" class="btn-nav">Inscrever</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Offline Banner -->
+    <div id="offlineBanner" class="offline-banner" style="display:none">
+        ⚠️ Você está offline, mas pode ver o conteúdo do curso
+    </div>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>De ZERO a Desenvolvedor Web em <span class="highlight">2 Meses</span></h1>
+            <p>Aprenda HTML, CSS, JavaScript e SEO. Crie sites profissionais. Ganhe dinheiro online.</p>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-num" data-count="10">0</span>
+                    <span class="stat-label">Alunos Formados</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-num" data-count="85">0</span>
+                    <span class="stat-label">Taxa Sucesso</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-num" data-count="2">0</span>
+                    <span class="stat-label">M+ Ganhos (Kz)</span>
+                </div>
+            </div>
+            <a href="#cta" class="btn-primary">⚡ Garantir Vaga Agora</a>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE SECTION -->
+    <section class="section" id="sobre">
+        <h2>O Que Você Vai Aprender</h2>
+        <div class="cards-grid">
+            <div class="card">
+                <div class="card-icon">💻</div>
+                <h3>Aprendizado Prático</h3>
+                <p>Crie projetos REAIS desde o primeiro dia, nada de teoria chata.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">🎯</div>
+                <h3>Projetos Reais</h3>
+                <p>Construa 3 sites profissionais para seu portfólio.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">🐙</div>
+                <h3>GitHub & GitHub Pages</h3>
+                <p>Aprenda versionamento e publique seu primeiro site no GitHub Pages.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">💰</div>
+                <h3>Mentalidade Profissional</h3>
+                <p>Aprenda a vender seus serviços e conquistar clientes.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- COURSE DETAILS -->
+    <section class="section" id="curso">
+        <h2>Estrutura do Curso</h2>
+        <div class="course-grid">
+            <div class="course-box">
+                <h4>⏱️ DURAÇÃO</h4>
+                <p class="course-value">2 Meses</p>
+                <span class="course-subtitle">8 semanas intensivas</span>
+            </div>
+            <div class="course-box">
+                <h4>📚 TECNOLOGIAS</h4>
+                <div class="tech-badges">
+                    <span class="badge">HTML5</span>
+                    <span class="badge">CSS3</span>
+                    <span class="badge">JavaScript</span>
+                    <span class="badge">Git</span>
+                    <span class="badge">SEO</span>
+                </div>
+            </div>
+            <div class="course-box">
+                <h4>🎓 CERTIFICADO</h4>
+                <p class="course-value">Profissional</p>
+                <span class="course-subtitle">Garantido</span>
+            </div>
+            <div class="course-box">
+                <h4>💰 INVESTIMENTO</h4>
+                <p class="course-value">15.000 Kz</p>
+                <span class="course-subtitle">2x sem juros</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS COM IMAGENS REAIS -->
+    <section class="section" id="depoimentos">
+        <h2>Histórias de Sucesso</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial">
+                <img src="pessoa1.jpg" alt="Gideão Maneco" class="avatar-img">
+                <h4>Gideão Maneco</h4>
+                <p class="role">Desenvolvedor Web</p>
+                <div class="stars">★★★★★</div>
+                <p class="quote">"Hoje estou criando sites e ganhando 45.000 Kz/mês!"</p>
+                <div class="transformation">
+                    <span>Antes: Desempregado</span> → <span>45.000 Kz/mês 🚀</span>
+                </div>
+            </div>
+            <div class="testimonial">
+                <img src="pessoa2.png" alt="Januário Moço" class="avatar-img">
+                <h4>Januário Moço</h4>
+                <p class="role">Freelancer</p>
+                <div class="stars">★★★★★</div>
+                <p class="quote">"Já fiz 3 projetos e tenho fila de espera!"</p>
+                <div class="transformation">
+                    <span>Antes: 0 Kz</span> → <span>25.000 Kz/mês 💰</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- TRANSFORMATION -->
+    <section class="section">
+        <h2>Sua Transformação Garantida</h2>
+        <div class="transformation-box">
+            <div class="side before">
+                <h3>❌ ANTES</h3>
+                <ul>
+                    <li>Sem experiência em programação</li>
+                    <li>Medo de tecnologia</li>
+                    <li>Sem portfólio</li>
+                    <li>Sem renda extra</li>
+                </ul>
+            </div>
+            <div class="arrow">→</div>
+            <div class="side after">
+                <h3>✅ DEPOIS</h3>
+                <ul>
+                    <li>Desenvolvedor Web Profissional</li>
+                    <li>Confiante com tecnologia</li>
+                    <li>Portfólio com 3+ projetos</li>
+                    <li>Ganhando dinheiro online</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- FORM CTA -->
+    <section class="section cta" id="cta">
+        <div class="urgency-box">
+            <div class="pulse"></div>
+            <span id="vagasText">⏰ Apenas 10 vagas restantes! Inscreva-se já</span>
+        </div>
+
+        <form id="enrollForm" class="form">
+            <h2>Garantir Sua Vaga Agora</h2>
+            
+            <div class="form-group">
+                <label>Seu Nome Completo</label>
+                <input type="text" id="name" placeholder="Ex: Gideão Maneco" autocomplete="name">
+                <span class="error" id="nameError"></span>
+            </div>
+
+            <div class="form-group">
+                <label>E-mail</label>
+                <input type="email" id="email" placeholder="seu@email.com" autocomplete="email">
+                <span class="error" id="emailError"></span>
+            </div>
+
+            <div class="form-group">
+                <label>WhatsApp</label>
+                <input type="tel" id="whatsapp" placeholder="Ex: 974926753" autocomplete="tel">
+                <span class="error" id="whatsappError"></span>
+            </div>
+
+            <div class="form-group">
+                <label>Nível de experiência com programação?</label>
+                <select id="experience">
+                    <option value="">Selecione uma opção...</option>
+                    <option value="zero">Sou iniciante (sem conhecimento)</option>
+                    <option value="beginner">Tenho alguma experiência</option>
+                    <option value="intermediate">Já programo razoavelmente</option>
+                </select>
+                <span class="error" id="experienceError"></span>
+            </div>
+
+            <div class="form-group checkbox">
+                <input type="checkbox" id="terms">
+                <label for="terms">Aceito receber informações sobre o curso via WhatsApp e e-mail</label>
+                <span class="error" id="termsError"></span>
+            </div>
+
+            <button type="submit" class="btn-primary btn-submit" id="submitBtn">
+                <span id="btnText">Garantir Minha Vaga AGORA</span>
+                <span id="btnLoader" style="display:none">⏳ Enviando...</span>
+            </button>
+
+            <div id="successMsg" class="success-msg" style="display:none">
+                ✅ Sucesso! Você será redirecionado para o WhatsApp em instantes...
+            </div>
+        </form>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="section final-cta">
+        <h2>Não deixe esta oportunidade passar</h2>
+        <p>Cada dia sem aprender é um dia perdido. A próxima turma começa em <strong id="countdown">1 mês</strong>!</p>
+        <a href="#cta" class="btn-primary">⚡ Quero Minha Vaga</a>
+        <button id="contactBtn" class="btn-secondary">📞 Contactar Instrutor</button>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>&copy; 2026 Centro de Formação Web | Transformando vidas através da programação</p>
+        <p>Desenvolvido por <strong>Gideão Maneco</strong></p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
